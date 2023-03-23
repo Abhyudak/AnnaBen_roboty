@@ -1,6 +1,5 @@
 import re
 from os import environ
-from pytgcalls import PyTgCalls
 from pyrogram import Client, filters
 
 id_pattern = re.compile(r'^.\d+$')
