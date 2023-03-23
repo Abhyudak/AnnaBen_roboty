@@ -74,4 +74,3 @@ else:
 
 GRPPLAY = grp
 bot = Client(SESSION, API_ID, API_HASH, plugins=dict(root="plugins"))
-call_py = PyTgCalls(bot)
